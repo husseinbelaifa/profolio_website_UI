@@ -178,6 +178,17 @@ hr.socket {
   margin: 1rem;
 }
 
+/* Card */
+.card {
+  overflow: hidden;
+}
+.card img {
+  transition: transform 0.5s ease;
+}
+.card img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
 /* Media Queries */
 
 @media (max-width: 768px) {
