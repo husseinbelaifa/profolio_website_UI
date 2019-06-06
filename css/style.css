@@ -57,6 +57,107 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-transform: uppercase;
+}
+
+.carousel-caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+  padding-bottom: 1.6rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+}
+
+/* Protfolio Section */
+.jumbotron {
+  border-radius: 0;
+
+  padding: 3rem 0 2rem;
+  margin-bottom: 0rem;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #1ebba3;
+  margin: 0 auto;
+}
+
+.protfolio img {
+  max-width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.protfolio img:hover {
+  transform: scale(1.1);
+
+  cursor: zoom-in;
+}
+
+.row.no-padding [class*="col-"] {
+  padding: 0 0;
+  margin: 0;
+}
+
+.protfolio {
+  overflow: hidden;
+}
+
+/* Team Section */
+
+.card {
+  margin: 2rem;
+}
+
+/* Contact Section */
+
+footer {
+  background-color: #40474e;
+  color: #fff;
+  padding: 2rem 0rem 3rem;
+  margin-top: 1rem;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer .icon {
+  font-size: 3rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+
+footer .icon:hover {
+  color: #1ebba3;
+}
+
+hr.socket {
+  border-top: 0.2rem solid #666b71;
+  width: 100%;
 }
 
 .narrow {
@@ -71,4 +172,33 @@ body {
   padding: 0.6rem 1.1rem;
   text-transform: uppercase;
   margin: 1rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 2.2rem;
+
+    letter-spacing: 0.15rem;
+
+    padding-bottom: 0.5rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+
+  p.lead {
+    font-size: 1rem;
+  }
 }
