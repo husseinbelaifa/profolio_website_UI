@@ -37,7 +37,13 @@ body {
  color: #1ebba3;
 }
 
-/*  */
+
+
+/* Slider */
+
+.carousel-item {
+ height: 100vh;
+}
 
 .narrow {
  width: 75%;

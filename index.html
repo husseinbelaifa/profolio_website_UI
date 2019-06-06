@@ -59,31 +59,92 @@
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
-        date-ride="carousel"
-        date-interval="7000"
+        data-ride="carousel"
+        data-interval="7000"
       >
         <ol class="carousel-indicators">
           <li
-            date-target="carouselExampleIndicators"
+            data-target="#carouselExampleIndicators"
             data-slide-to="0"
             class="active"
           ></li>
-          <li date-target="carouselExampleIndicators" data-slide-to="1"></li>
-          <li date-target="carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-
+        <!-- Carousel Inner -->
         <div class="carousel-inner" role="listbox">
+          <!-- First Slide -->
           <div
             class="carousel-item active"
             style="background-image: url('./img/computers.png');"
+          >
+            <div class="carousel-caption text-center">
+              <h1>Welecome To Nuno</h1>
+              <h3>Animate Bootstrap Theme</h3>
+              <a class="btn btn-outline-light btn-lg" href="#course"
+                >Get Started</a
+              >
+            </div>
+          </div>
+          <!-- Second Slide -->
+
+          <div
+            class="carousel-item"
+            style="background-image: url('./img/computers-2.png');"
+          ></div>
+
+          <!-- Third Slide -->
+
+          <div
+            class="carousel-item"
+            style="background-image: url('./img/computers-3.png');"
           ></div>
         </div>
+        <!-- End Carousel Inner -->
+        <!-- Start Prev & Next Button -->
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
       </div>
 
       <!-- End of Image Slider -->
     </div>
 
     <!-- End of Home Section -->
+
+    <!-- Start of Course Section -->
+
+    <div id="course" class="offset">
+      <div class="col-12 narrow text-center">
+        <p class="lead">
+          Learn Bootstrap by Creating an advances Bootstrap 4 Responsive Website
+          Template from scratch, With no steps skipped!
+        </p>
+        <a
+          class="btn btn-secondary btn-md"
+          href="http://bit.ly/advanced-bootstrap-course"
+          target="_blank"
+          >93% OFF COUPON "NUNO93"</a
+        >
+      </div>
+    </div>
+
+    <!-- End of Course Section -->
 
     <!-- Start portfolio Section -->
 
