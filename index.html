@@ -4,7 +4,107 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fixed.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Nuno - Responsive Bootstrap Theme</title>
   </head>
-  <body></body>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- Start Home Section -->
+
+    <div id="home">
+      <!-- Navigation -->
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" hred="index.html"
+          ><img src="./img/nuno.png" alt=""
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#course">Course</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#protfolio">Protfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Start of Image Slider -->
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        date-ride="carousel"
+        date-interval="7000"
+      >
+        <ol class="carousel-indicators">
+          <li
+            date-target="carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li date-target="carouselExampleIndicators" data-slide-to="1"></li>
+          <li date-target="carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div
+            class="carousel-item active"
+            style="background-image: url('./img/computers.png');"
+          ></div>
+        </div>
+      </div>
+
+      <!-- End of Image Slider -->
+    </div>
+
+    <!-- End of Home Section -->
+
+    <!-- Start portfolio Section -->
+
+    <div id="portfolio"></div>
+
+    <!-- End of portfolio Section -->
+
+    <!-- Start team Section -->
+
+    <div id="team"></div>
+
+    <!-- End of team Section -->
+
+    <!-- Start contact Section -->
+
+    <div id="contact"></div>
+
+    <!-- End of contact Section -->
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/all.js"></script>
+  </body>
 </html>
