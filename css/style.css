@@ -6,11 +6,15 @@ body {
   color: #505962;
 }
 
-/* .offset:before {
-   height: 3.8 rem;
+.offset:before {
+  height: 3.8rem;
   margin-top: -3.8rem;
   content: "";
   display: block;
+}
+
+/* .offset {
+  padding-top: 60px;
 } */
 
 /* NavBar */
